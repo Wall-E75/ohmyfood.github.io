@@ -13,10 +13,44 @@
 
         <body>
             <header>
-                <nav></nav>
+                <div class="logo-head">
+                    <img class="logo-head__img" src="images/logo/ohmyfood.png" alt="logo_du_site">
+                </div>
+                <div class="loc-acc"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</div>
             </header>
-            <h1>Réservez le menu qui vous convient</h1>
+            <nav>                
+                <div class="menu-acc">
+                    <h1 class="menu-acc__title">Réservez le menu qui vous convient</h1>
+                    <p class="menu-acc__txt">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                    <form method="get" action="">
+                        <label for="explorer"></label>
+                        <input class="btn btn__rounded" type="submit" name="explorer" id="explorer" value="Explorer nos restaurants">
+                    </form>
+                </div>
+            </nav>
             <main>
+                <section class="fonctionnement">
+                    <h1>Fonctionnement</h1>
+                    <ol class="fonctionnement__list">
+                        <li class="fonctionnement__list__num"><i class="fa-sharp fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</li>
+                        <li class="fonctionnement__list__num"><i class="fa-solid fa-list-ul"></i>Composez votre menu</li>
+                        <li class="fonctionnement__list__num"><i class="fa-solid fa-store"></i>Dégustez au restaurant</li>                        
+                    </ol>
+                </section>
+
+                <section>
+                    <h1>Restaurants</h1>
+                    <article>
+                        <div>
+                            <img src="images/restaurants/" alt="La palette du gout, Ménilmontant">
+                            <div>
+                                <h3>La palette du goût</h3>
+                                <p>Ménilmontant</p>
+                                <i>coeur</i>
+                            </div>
+                        </div>
+                </section>
+
 
             </main>
 

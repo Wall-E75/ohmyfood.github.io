@@ -1,0 +1,88 @@
+* {
+  box-sizing: boder-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+}
+
+.logo-head {
+  border-bottom: 2px solid #dedada;
+  padding-bottom: 10px;
+}
+.logo-head__img {
+  width: 50%;
+  font-family: "Shrikhand", cursive;
+}
+@media screen and (max-width: 550px) {
+  .logo-head {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.loc-acc {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dedada;
+}
+
+.menu-acc {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+}
+.menu-acc__title {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.menu-acc__txt {
+  width: 70%;
+  margin-top: 10px;
+}
+@media screen and (max-width: 550px) {
+  .menu-acc {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
+
+.btn {
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  color: white;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  font-size: 15px;
+}
+.btn__rounded {
+  border-radius: 30px;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+.fonctionnement__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 0;
+}
+.fonctionnement__list__num {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
