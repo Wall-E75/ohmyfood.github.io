@@ -1,0 +1,81 @@
+.head-france {
+
+}
+.logo-head__arrow {
+    position:relative;
+    right: 75px;
+    font-size: 30px;
+}
+.main-design {
+    position: relative;
+    border-radius: 25px 25px 0 0;
+    bottom: 80px;
+    background-color: $colour-quinquennial;
+    padding: 5px 15px;
+    
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 15px;
+
+        h1 {
+            font-weight: 400;
+        }
+
+        i {
+            font-size: 25px;
+        }
+    }
+
+    &__entree-word {
+        border-bottom: $brd #99e2d0;
+        width: 10%;        
+        
+    }
+
+    &__menu {
+        display: flex;
+        /*width:100%;*/
+        /*margin: 10px;*/
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: $colour-six;
+        border: $brd $colour-quinquennial;
+        border-radius: 20px;
+       @include brd-shadow(grey);
+        padding: 10px 10px;
+        margin-bottom: 20px;
+
+        h4 {
+            margin-bottom: 5px;
+            margin-top: 0;
+        } 
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 0;
+
+            &:hover {
+                background-color: $colour-six;
+                color: red;
+                border: $brd green;
+                width: 20%;
+                height: auto;
+            }
+        }
+
+    }
+    
+}
+
+.btn-cmd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        margin: 25px;
+        padding: 15px 40px;
+    }
+}
