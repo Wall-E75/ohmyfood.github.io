@@ -22,32 +22,45 @@
 
             <main class="main-design">
                 <section class="main-design__title">
-                    <h2>Le délice des sens</h2><!--div class="color-heart"--><i class="fa-regular fa-heart"></i><!--/div-->
+                    <h2>Le délice des sens</h2>
+                    <div class="main-design__title__heart-pos">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class=" fa-solid fa-heart"></i>
+                    </div>
                 </section>
-                <section class="main-design__section">
+                <section>
                     <h3 class="main-design__entree-word">ENTREES</h3>
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Tartare de thon</h4>
                             <p>Assaisonné au yuzu</p>
                         </div>
-                        <div class="main-design__menu__check"><p>25€</p><i class="fa-regular fa-circle-check"></i></div>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Bouchée de homard croustillant</h4>
                             <p>Et sa farandole de petits légumes</p>
                         </div>
-                        <p>35€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Velouté de cèpes</h4>
                             <p>Aux truffes</p>
                         </div>
-                        <p>20€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
                 </section>
 
@@ -55,27 +68,36 @@
 
                     <h3 class="main-design__entree-word">PLATS</h3>
                     <article class="main-design__menu">
-                        <div>
-                            <h4>Poulet rôti aux herbes de provence</h4>
+                        <div class="main-design__menu__txt">
+                            <h4>Poulet rôti aux herbes de Provence</h4>
                             <p>Et sa crème de truffe</p>
                         </div>
-                        <p>40€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
-                            <h4>Langoustine rôtie</h4>
+                        <div class="main-design__menu__txt">
+                            <h4>Langouste rôtie</h4>
                             <p>Et ses légumes de saison</p>
                         </div>
-                        <p>35€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Côte de boeuf Angus</h4>
                             <p>Et sa purée de panais</p>
                         </div>
-                        <p>44€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
                 </section>
 
@@ -84,35 +106,41 @@
                     <h3 class="main-design__entree-word">DESSERTS</h3>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Farandole de desserts</h4>
                             <p>Du chef</p>
                         </div>
-                        <p>18€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Crème brulée</h4>
                             <p>Revisitée</p>
                         </div>
-                        <p>22€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
 
                     <article class="main-design__menu">
-                        <div>
+                        <div class="main-design__menu__txt">
                             <h4>Tiramisu</h4>
-                            <p>A la noisette</p>
+                            <p>À la noisette</p>
                         </div>
-                        <p>23€</p>
+                        <div class="main-design__menu__check">
+                            <span class="main-design__menu__check__price">25€</span>
+                            <div class="main-design__menu__check__select"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </article>
                 </section>
 
                 <div class="btn-cmd">
-                    <form method="get" action="#">
-                        <label for="commander"></label>
-                        <input class="btn btn__rounded" type="submit" name="commander" id="commander" value="Commander">
-                    </form>
+                    <button class="btn btn__rounded">Commander</button>
                 </div>
             </main>
 
@@ -123,7 +151,7 @@
                         <li><a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a></li>
                         <li><a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a></li>
                         <li><a href="#">Mentions légales</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="mailto:NOMDUMAIL@MAIL.COM">Contact</a></li>
                     </ul>
                 </div>
             </footer>
