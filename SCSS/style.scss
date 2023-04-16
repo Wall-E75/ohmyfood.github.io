@@ -1,17 +1,15 @@
-@import "./Utils/variables";
-@import "./Utils/mixins";
-@import "./Pages/pages";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./pages/pages";
 
 *{
     box-sizing:border-box;
     font-family: 'Roboto', sans-serif; 
     max-width: 1400px;
-   
+       
 }
 
-body {
-    /*padding: 5px 5px;*/
-}
+
 h1{
     font-family: 'Shrikhand', cursive;
     font-weight: 500;
@@ -77,7 +75,7 @@ h1{
     border: none;
     font-size: 17px;
     transform: scale(1);
-    transition: all 150ms linear;
+    transition: all 100ms linear;
     @include brd-shadow (rgba(0,0,0,0.3) );
     &__rounded {
         border-radius: 30px;

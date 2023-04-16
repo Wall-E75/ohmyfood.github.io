@@ -15,8 +15,6 @@
 }
 @media screen and (min-width: 840px) {
   .logo-head__arrow {
-    /*position: static;
-    display: none;*/
     right: 36%;
   }
 }
@@ -256,10 +254,6 @@
   max-width: 1400px;
 }
 
-body {
-  /*padding: 5px 5px;*/
-}
-
 h1 {
   font-family: "Shrikhand", cursive;
   font-weight: 500;
@@ -320,7 +314,7 @@ h1 {
   border: none;
   font-size: 17px;
   transform: scale(1);
-  transition: all 150ms linear;
+  transition: all 100ms linear;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 .btn__rounded {
