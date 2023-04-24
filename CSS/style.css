@@ -44,11 +44,6 @@
   margin-top: -65px;
   background-color: #F7F7F7;
   padding: 5px 10px;
-  /*@media screen and (min-width: 660px) {
-      width: 70%;
-      padding: 5px 10%;
-      inset: 5%;
-  }*/
 }
 @media screen and (min-width: 720px) {
   .main-design {
@@ -81,7 +76,6 @@
   position: absolute;
   right: 10px;
   font-size: 25px;
-  /*transform: translateY(-40%);*/
 }
 .main-design__title .fa-solid {
   background-image: linear-gradient(360deg, #FF79DA, #9356DC);
@@ -98,10 +92,6 @@
 }
 .main-design__progressive {
   animation: progressive 1s ease-in-out backwards;
-  /* @media screen and (min-width: 620px) {
-       display: flex;
-       justify-content: space-between;
-   }*/
 }
 .main-design__progressive:nth-child(2) {
   animation-delay: 150ms;
@@ -115,8 +105,6 @@
 .main-design__entree-word {
   border-bottom: 2px solid #99e2d0;
   width: 50px;
-  /*text-decoration: underline;
-  text-decoration-color: #99e2d0;*/
   font-weight: 400;
 }
 .main-design__menu {
@@ -128,18 +116,11 @@
   border: none;
   border-radius: 20px;
   box-shadow: 0px 5px 15px grey;
-  /*padding: 10px 10px;*/
   margin-bottom: 20px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
-  /* @media screen and (min-width: 620px) {
-       width: 25%;
-       padding-top: 5px;
-       align-items: flex-start;
-
-   }*/
 }
 .main-design__menu__txt {
   margin: 10px 10px;
@@ -199,6 +180,34 @@
   transform: rotate(360deg);
 }
 
+@keyframes progressive {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.btn {
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  color: white;
+  padding: 15px;
+  border: none;
+  font-size: 17px;
+  transform: scale(1);
+  transition: all 100ms linear;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.btn__rounded {
+  border-radius: 30px;
+}
+.btn:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+}
+
 .btn-cmd {
   display: flex;
   justify-content: center;
@@ -209,14 +218,6 @@
   padding: 15px 40px;
 }
 
-@keyframes progressive {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -274,26 +275,6 @@ h1 {
 .menu-acc__txt {
   width: 70%;
   margin-top: 10px;
-}
-
-.btn {
-  background: linear-gradient(180deg, #FF79DA, #9356DC);
-  color: white;
-  padding: 15px;
-  border: none;
-  font-size: 17px;
-  transform: scale(1);
-  transition: all 100ms linear;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-}
-.btn__rounded {
-  border-radius: 30px;
-}
-.btn:hover {
-  filter: brightness(110%);
-  cursor: pointer;
-  transform: scale(1.01);
-  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
 }
 
 .fonctionnement {
@@ -455,10 +436,6 @@ h1 {
   background-color: #353535;
   color: white;
   padding: 10px 20px;
-  /*&__level {
-      position:relative;
-      bottom: 75px;
-  }*/
 }
 .footer h1 {
   font-size: 19px;

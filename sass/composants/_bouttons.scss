@@ -1,0 +1,33 @@
+.btn {
+    background: linear-gradient(180deg, $colour-secondary, $colour-primary);
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 17px;
+    transform: scale(1);
+    transition: all 100ms linear;
+    @include brd-shadow (rgba(0,0,0,0.3) );
+    &__rounded {
+        border-radius: 30px;
+        
+    }
+    &:hover {
+        filter: brightness(110%);
+        cursor: pointer;
+        transform: scale(1.01);
+        box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+    }
+}
+
+
+.btn-cmd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        margin: 25px;
+        padding: 15px 40px;
+    }
+}
+
