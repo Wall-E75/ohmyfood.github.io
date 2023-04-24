@@ -482,18 +482,7 @@ h1 {
   text-decoration: none;
 }
 
-/* a la française*/
-/*.fa-heart {
-    color: black;
-    &::before {        
-        transition: color;
-        &:hover::before {
-            color: red;
-            font-weight: bold;
-            cursor: pointer;
-        }      
-    }
-}*/
+/*loader*/
 .circle-anim {
   position: fixed;
   border: 8px solid #dc99e2;
