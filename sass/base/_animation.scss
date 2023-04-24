@@ -1,0 +1,56 @@
+/*loader*/
+
+.circle-anim{
+    position: fixed;
+    border: 8px solid #dc99e2;
+    border-top: 8px dashed rgb(183, 70, 196);
+    border-bottom: 8px dashed rgb(83, 34, 190);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 3500ms ease-in-out forwards;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    position:fixed;
+    display: grid;
+    place-items: center;
+    background-color: #f3f3f3;
+    opacity: 0.7;
+    height: 100vh; 
+    inset: 0; /*top: 0; bottom: 0; right: 0; left: 0;*/
+    z-index: 1; 
+    animation: upback 500ms 2s forwards;
+    transform-origin: top;
+}
+
+@keyframes upback {
+    from {
+        transform: scale(1);        
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+/* Apparition progressive des pages*/
+
+@keyframes progressive {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
