@@ -54,6 +54,7 @@
             border-radius: 20px;
             padding: 25px 10px;
             &:hover {
+                cursor: pointer;
                 background: rgba(147, 86, 220, 0.1);
                 i {
                     color: $colour-primary;
